@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: grey;
+    color: antiquewhite;
+    background: linear-gradient(to top, rgb(92, 89, 89), rgb(48, 45, 45),rgb(2, 2, 2) );
+    /* width: 100%; */
+    padding: 1em;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 60%;
+    justify-content: space-between;
+    padding: 1.2em;
+    margin-left: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size: 1em;
+}
+#option{
+    background-color: white;
+    padding: 5px 10px; 
+    color: black;
+
+}
+.option2{
+    padding-top: 0.2em;
+}
+#first_image{
+    width: 100%;
+
+}
+#second_image{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+    
+}
+#third_image{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color: aliceblue;
+    /* text-align: center; */
+    padding: 2em;
+    width: 100%;
+    /* margin-right: 15em; */
+
+}
+.one{
+    padding: 1.5em;
+    margin-right: 3em;
+}
+.two{
+    padding: 1.5em;
+}
+.three{
+    padding: 1.5em;
+    margin-left: 4em;
+}
+#twolast{
+    padding-right: 6em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+#onelast{
+    padding-top: 10em;
+    padding-right: 4em;
+}
